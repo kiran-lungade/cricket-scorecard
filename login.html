@@ -1,0 +1,58 @@
+<html>  
+    <head>  
+        <title>PHP login system</title>  
+      
+        <link rel = "stylesheet" type = "text/css" href = "Loginpage.css">   
+    </head>  
+    <body> 
+<section>
+	<Center> 
+        
+
+	    <h1>CricHero</h1>
+        <div class = " Abc">
+     		<h2><center><u>User Login</u></center></h2> 
+               <hr>   
+            <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+                  
+                    <input type = "text" id ="user" name  = "user" placeholder="Username" />  
+                <br/><br/>
+                
+                    <input type = "password" id ="pass" name  = "pass" placeholder="Password"/>  
+                    <br/><br/> 
+                    
+                    <button type =  "submit" id = "btn"/>Login</button>  
+                    <a href ="register.php"><button type =  "button" id = "btn"/>Register</button> 
+ 
+                
+                    
+            </form>  
+        </div>  
+        
+        <script>  
+                function validation()  
+                {  
+                    var id=document.f1.user.value;  
+                    var ps=document.f1.pass.value;  
+                    if(id.length=="" && ps.length=="") {  
+                        alert("User Name and Password fields are empty");  
+                        return false;  
+                    }  
+                    else  
+                    {  
+                        if(id.length=="") {  
+                            alert("User Name is empty");  
+                            return false;  
+                        }   
+                        if (ps.length=="") {  
+                        alert("Password field is empty");  
+                        return false;  
+                        }  
+                    }                             
+                }  
+            </script>  
+	</Center>
+	</section>
+
+    </body>     
+    </html>  

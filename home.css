@@ -1,0 +1,90 @@
+body{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Vibur", sans-serif;
+    
+    background-image:url("images/img7.png");
+   background-repeat: no-repeat;
+   padding-left: 500px;
+
+}
+
+
+h1{
+    color: rgb(255, 0, 0);
+    padding: 2px;
+    font-family: edwardian;
+    font-size: 70px;
+}
+
+h2{
+    padding: 1px;
+    font-family: palace;
+    font-size:75px;
+	color: rgb(98, 4, 98);
+}
+
+h3{
+    padding-left: 350px;
+    font-family: cursive;
+    font-size:25px;
+	color: hsl(60, 100%, 50%);
+}
+
+
+lab{
+    text-transform: capitalize;
+    font-family: cursive;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+label{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #d4a521;
+}
+
+input{
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 12px;
+    padding: 5px;
+    height: 40px;
+    width: 95px;
+    font-weight: bolder;
+    font-size: 12px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(235, 235, 187);
+}
+input:hover{
+    background-color: rgb(43, 220, 117);
+    color:red;
+    transform: scale(1.35);
+    transition: transform 200ms ease-in;
+  
+  }
+  
+
+button{
+    
+    margin: 45px;
+    margin-top: 20px;
+    border: 2px solid rgb(235, 234, 234);
+    border-radius: 12px;
+    width: 150px;
+    text-align: right;
+    text-transform: capitalize;
+    background-color: hsl(288, 72%, 32%);
+    color: rgb(231, 243, 119);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+button:hover{
+    color: rgb(20, 179, 60);
+}

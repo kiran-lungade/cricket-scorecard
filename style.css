@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(196, 140, 36);
+    
+}
+
+.landing-header {
+      padding: 30px;
+      font-size: 30px;
+}
+
+.landing-header {
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgb(75, 44, 3) 0%, orange );
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.cric-logo{
+    
+    color: whitesmoke;
+    font-weight: 800;
+    padding-left: 500px;
+    text-align: center;
+    font-family: Arial Black;
+    font-style: italic;
+}
+
+.button-design{
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+}
+
+.login-button{
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.login-button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.login-button:hover {
+  background-image: radial-gradient(100% 100% at 100% 0, #a8adaf 0, #dbdce5 100%);
+  color: black;
+  transform: scale(1.10);
+    transition: transform 200ms ease-in;
+}
+
+.login-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.Register-button{
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.Register-button:focus {
+  box-shadow: #f8f8f9 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(233, 232, 233, 0.3) 0 7px 13px -3px, #bebfc2 0 -3px 0 inset;
+}
+
+.Register-button:hover {
+  background-image: radial-gradient(100% 100% at 100% 0, #a8adaf 0, #dbdce5 100%);
+  color: black;
+  transform: scale(1.10);
+    transition: transform 200ms ease-in;
+}
+
+.Register-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+
+    
